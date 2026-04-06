@@ -13,8 +13,8 @@ import {
 
 const Menu = () => {
   return (
-    <div className="flex justify-end gap-3">
-      <nav className="hidden md:flex w-full max-w-xs gap-1">
+    <div className="flex justify-end items-center gap-3">
+      <nav className="hidden md:flex w-full max-w-xs gap-1 items-center">
         <ModeToggle />
         <Button asChild variant="ghost">
           <Link href="/cart">
