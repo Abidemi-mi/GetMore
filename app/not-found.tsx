@@ -7,11 +7,12 @@ const NotFoundPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Image
-        src="/images/logo.png"
+        src="/images/defaultlogo.png"
         alt={`${APP_NAME} LOGO`}
-        height={48}
-        width={48}
+        height={98}
+        width={98}
         priority={true}
+        className="rounded-sm shadow-md"
       />
       <div className="p-6 w-1/3 rounded-lg shadow-md text-center">
         <h1 className="text-3xl font-bold mb-4"> Not Found</h1>
@@ -19,7 +20,7 @@ const NotFoundPage = () => {
         <Button
           variant="outline"
           onClick={() => (window.location.href = "/")}
-          className="mt-4 ml-2"
+          className="mt-4 ml-2 cursor-pointer "
         >
           Back To Home
         </Button>

@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-const Productprice = ({value, className}: {value: number; className?: string;}) => {
+const ProductPrice = ({value, className}: {value: number; className?: string;}) => {
   //To add decimal places
   const toDecimal = value.toFixed(2);
 
@@ -17,4 +17,4 @@ const Productprice = ({value, className}: {value: number; className?: string;}) 
   )
 }
 
-export default Productprice;
+export default ProductPrice;
